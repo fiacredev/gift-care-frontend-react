@@ -1,0 +1,328 @@
+:root{
+  --nav:var(#044392);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.text{
+  color: green;
+  font-size: 83px;
+  text-align: center;
+}
+
+Link{
+  color: #fff;
+}
+nav{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 212.7vh;
+  justify-content: space-between;
+  padding: 23px;
+  position: fixed;
+  background-color:#207ced;
+  width: 100%;
+  height: 10%;
+}
+nav ul{
+  display: flex;
+}
+nav div h3{
+  text-transform: capitalize;
+  color: #fff;
+}
+nav ul li{
+ list-style: none; 
+ margin-right: 10px;
+ font-size: 17px;
+ text-transform: capitalize;
+}
+nav ul li Link{
+  text-decoration: none;
+}
+.home{
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  width: 200vh;
+  margin-left: 40px;
+  padding: 20px;
+  margin-bottom: 113px;
+  padding-top: 177px;
+}
+.home img{
+  height: 300px;
+  padding-bottom: 20px;
+}
+.home .cont-1 h3{
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 7px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.home .cont-1 button{
+  width:100px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #2c85e0;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+.home .cont-1 p{
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.home .cont-1 span{
+  font-size: 20px;
+  color:blue;
+}
+footer{
+  /* border: 1px solid red; */
+  width: 200vh;
+  float: bottom;
+  position: fixed;
+  background-color: #044392;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 17px;
+}
+.about{
+  padding-top: 90px;
+  width: 200vh;
+  margin-left: 40px;
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+}
+.about .cont-1{
+  display: flex;
+}
+.about img{
+  width: 200px;
+  margin-right: 20px;
+}
+.about .cont-1 .text-1{
+  margin-bottom: 20px;
+}
+.about .cont-1 .text-2{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.about .cont-1 button{
+  width:77px;
+  text-transform: capitalize;
+  height: 30px;
+  font-size: 14px;
+  background-color:#2c85e0;
+  border-radius: 5px;
+  border: none;
+  color: #fff    
+}
+
+.about .cont-1 .text-1 span{
+  font-size: 20px;
+  font-weight: bold;
+}
+.about .cont-1 .text-1 .text1-0{
+  color: grey;
+  font-size: 14px;
+}
+.aboutCard{
+  display: flex;
+  padding-right: 20px;
+}
+.aboutMore{
+  background-color: rgb(167, 167, 218);
+  width: 310px;
+  height: 270px;
+  margin-left: 10px;
+  padding-left: 13px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.aboutMore h1{
+  margin-bottom: 23px;
+}
+.aboutMore h3{
+  margin-bottom: 23px;
+}
+.aboutMore p{
+  margin-bottom: 51px;
+  font-size:15px;
+  text-transform: capitalize;
+}
+.aboutMore button{
+  width:100px;
+  text-transform: capitalize;
+  height: 40px;
+  font-size: 14px;
+  background-color: #2c85e0;
+  border-radius: 5px;
+  border: none;
+  color: #fff 
+}
+.aboutMoreCard{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-bottom: 26px;
+  gap: 70px;
+}
+footer{
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-bottom: 0px;
+}
+footer ul{
+  display: flex;
+}
+footer ul li{
+  list-style-type:none;
+  margin-right: 7px;
+  font-size: 20px;
+}
+
+/* here is about contact page */
+
+.contact{
+  /* border: 2px solid red; */
+  padding-top: 100px;
+  margin-left: 27px;
+  margin-bottom: 20px;
+  /* margin-bottom: 100px; */
+}
+.contact .contactMe{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.contact h2{
+  font-size: 27px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.contact h3{
+  font-size: 27px;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.contact form input{
+  width: 96.7%;
+  padding: 17px;
+  margin-bottom: 15px;
+}
+.contact form button{
+  /* color: red; */
+  width: 200px;
+  height: 47px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color:#2189c9;
+  border: none;
+  border-radius: 10px;
+}
+.service{
+  padding-top: 90px;
+  /* border: 1px solid red; */
+  margin-right: 70px;
+  margin-left: 70px;
+  justify-content: space-between;
+}
+.service .main-cont-1{
+  display: flex;
+  justify-content: space-between;
+}
+.service .text-1{
+  text-transform: capitalize;
+  margin-left: 500px;
+}
+.service .text-2{
+  margin-top:23px;;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.service button{
+  width:100px;
+  text-transform: capitalize;
+  height: 40px;
+  font-size: 17px;
+  background-color:#75c6f3;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.service .cont-2 img{
+  height: 300px;
+  padding-bottom: 20px; 
+  margin-top:33px;
+}
+.service .cont-3 h3{
+  text-transform: capitalize;
+  text-align: center;
+}
+.service .cont-3 p{
+  text-align: center;
+  margin-top: 20px;
+}
+.testmonials{
+  border: 1px solid#333;
+  width: 307px;
+  height: 320px;
+  margin-top: 10px;
+  display: block;
+  margin-left: 70px;
+}
+.testmonials h3,h5{
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 4px;
+}
+.testmonials img{
+  width: 120px;
+  text-align: center;
+  border-radius: 50%;
+}
+.testmonials p{
+  padding-left: 10px;
+  margin-top: 13px;
+}
+.testmonials hr{
+  margin-top: 30px;
+  color: grey;
+}
+.testmonialsCards{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 77px;
+}
+.bottom-footer{
+  color: #fff;
+  position: fixed;
+  padding-bottom: 10%;
+}

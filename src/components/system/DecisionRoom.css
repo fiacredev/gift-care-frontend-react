@@ -1,0 +1,76 @@
+
+.dec-text{
+    text-align: center;
+    color: rgb(70, 215, 70);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dec-header{
+    height: 25px;
+    width: 190px;
+    margin-left: 140px;
+    border-radius: 7px;
+    border: 1px solid #333;
+    outline: none;
+}
+.dec-header::placeholder{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.box{
+    width: 77%;
+    height: 500px;
+    border: 2px solid #333;
+    margin-left: 140px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 13px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sendMessage{
+    display: flex;
+}
+.sendMessage .box-two{
+    width: 73%;
+    height: 70px;
+    border: 2px solid #333;
+    margin-left: 140px;
+    margin-top: 14px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    font-size: 14px;
+    margin-right: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 7px;
+}
+.sendMessage .sendButton{
+    width: 50px;
+    border-radius: 30px;
+    border: none;
+    text-transform: capitalize;
+    border: 2px solid #333;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.returned-dec-box{
+    padding: 7px;
+    width: 400px;
+    max-height: 300px;
+    background-color: rgb(124, 124, 225);
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.returned-name{
+    font-size: 13px;
+    color: #f1dfdf;
+}
+.delete-dec{
+    float: right;
+    margin-top: -20px;
+    font-size: 15px;
+}
